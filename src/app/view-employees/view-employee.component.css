@@ -1,0 +1,107 @@
+/* Page layout */
+.container {
+  padding: 30px;
+  background: #f5f7fa;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  margin: 0;
+  color: #2c3e50;
+}
+
+/* Card */
+.table-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Table header */
+th {
+  text-align: left;
+  padding: 12px;
+  background: #f0f2f5;
+  color: #555;
+  font-weight: 600;
+}
+
+/* Table rows */
+td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Hover effect */
+tr:hover {
+  background: #fafafa;
+}
+
+/* Buttons */
+.btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+  margin-right: 5px;
+  transition: 0.2s;
+}
+
+/* Add button */
+.primary {
+  background: #3498db;
+  color: white;
+}
+
+.primary:hover {
+  background: #2d7fc1;
+}
+
+/* Edit button */
+.edit {
+  background: #f39c12;
+  color: white;
+}
+
+.edit:hover {
+  background: #d68910;
+}
+
+/* Delete button */
+.delete {
+  background: #e74c3c;
+  color: white;
+}
+
+.delete:hover {
+  background: #c0392b;
+}
+
+/* Empty state */
+.empty {
+  text-align: center;
+  color: #888;
+  padding: 20px;
+}
+
+/* Actions column */
+.actions {
+  width: 180px;
+}

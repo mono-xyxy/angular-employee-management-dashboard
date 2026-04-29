@@ -1,0 +1,86 @@
+/* Page background */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f6f9;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Card layout */
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+/* Heading */
+.card h2 {
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Form spacing */
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  transition: 0.2s;
+}
+
+/* Input focus */
+input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 4px rgba(74, 144, 226, 0.3);
+}
+
+/* Error text */
+span {
+  color: red;
+  font-size: 12px;
+}
+
+/* Buttons */
+.btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+/* Primary button */
+.primary {
+  background: #4a90e2;
+  color: white;
+}
+
+.primary:hover {
+  background: #357abd;
+}
+
+/* Secondary button */
+.secondary {
+  background: #e0e0e0;
+  color: #333;
+}
+
+.secondary:hover {
+  background: #cfcfcf;
+}
