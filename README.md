@@ -1,59 +1,118 @@
-# EmployeeManagementSystem
+# 🚀 Employee Management System (Angular)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.7.
+A modern **Employee Management Dashboard** built using Angular, demonstrating core frontend concepts such as **CRUD operations, routing, reactive forms, and state management**.
 
-## Development server
+---
 
-To start a local development server, run:
+## 📸 Screenshots
+
+| Employee List                                                                                                                       | Add Employee                                                                                                                        |
+| ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| <img width="1847" height="718" alt="image" src="https://github.com/user-attachments/assets/a7cba28e-81e7-4487-b754-72941a6072f8" /> | <img width="1814" height="929" alt="image" src="https://github.com/user-attachments/assets/2b917f4b-bb87-4758-bd4d-75bb34b6a552" /> |
+
+| Edit Employee                                                                                                                       | Empty State                                                                                                                         |
+| ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| <img width="1806" height="923" alt="image" src="https://github.com/user-attachments/assets/f8c5f56e-8b1e-4ec7-a468-ec583c3a2151" /> | <img width="1817" height="892" alt="image" src="https://github.com/user-attachments/assets/7d405545-ce4b-454d-bad7-b93574c5abbb" /> |
+
+---
+
+## ✨ Features
+
+* View employees in a structured dashboard
+* Add new employees using reactive forms
+* Edit existing employee details
+* Delete employees
+* Real-time UI updates using reactive state
+* Empty state handling
+* Modular and scalable project structure
+
+---
+
+## 🧠 Concepts Covered
+
+* Angular Standalone Components
+* Reactive Forms & Validation
+* Routing & Navigation
+* Services & Dependency Injection
+* State Management using BehaviorSubject
+* Component-based architecture
+* TypeScript interfaces for type safety
+
+---
+
+## 🏗️ Project Structure
+
+```bash
+src/app
+│── add-employee/               # Add employee form
+│── edit-employee-details/      # Edit employee form
+│── view-employees/             # Employee dashboard
+│── api/
+│   └── employee.service.ts     # Business logic & state management
+│── employee-interface/
+│   └── employee.interface.ts   # Type definitions
+│── app.config.ts               # App configuration
+│── app.routes.ts               # Routing setup
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### Clone the repository
+
+```bash
+git clone https://github.com/mono-xyxy/angular-employee-management-dashboard.git
+cd angular-employee-management-dashboard
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run the application
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Open in browser:
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```
+http://localhost:4200/
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 🧪 Application Behavior
 
-## Building
+* Employees are managed using an **in-memory state (BehaviorSubject)**
+* CRUD operations update the UI instantly without backend dependency
+* Routing enables navigation between list, add, and edit views
 
-To build the project run:
+---
 
-```bash
-ng build
-```
+## ⚠️ Note
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+* This project currently uses **local state only (no backend)**
+* Data will reset on page refresh
+* Can be extended with backend integration (REST API / Firebase)
 
-## Running unit tests
+---
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+## 🚀 Possible Enhancements
 
-```bash
-ng test
-```
+* Backend integration for persistent storage
+* Authentication and role-based access
+* Search and filtering functionality
+* Dashboard analytics
+* UI enhancement using Angular Material
+* LocalStorage-based persistence
 
-## Running end-to-end tests
+---
 
-For end-to-end (e2e) testing, run:
+## 📌 Summary
 
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+A clean and scalable Angular application demonstrating practical frontend development skills including component architecture, state management, and user interaction workflows.
